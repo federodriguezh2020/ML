@@ -227,7 +227,7 @@ prop.table(table(y_hat, y_train))
 # Tasa de error 
 # estimacion puntual con datos de test
 tasa_error_tr <- 1-sum(diag(matriz.confusion))/sum(matriz.confusion)
-tasa_error_tr # 11.49 %
+tasa_error_tr # 0.1033378
 
 ##### Curva ROC y Area baja la curva ROC (AUC)
 ### Primero obtenemos las propabilidades a posteriori, luego:
